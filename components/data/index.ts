@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+//    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -72,35 +72,35 @@ export const GridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Project 1",
-        des: "Enter Project 1 details here",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "link for project 1",
+        title: "Taskify",
+        des: "A Board-Based Collaborative Task Management Web Application",
+        img: "/TK.png",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        link: "https://github.com/Thami001/next13-task-manager-web-app",
     },
     {
         id: 2,
-        title: "Project 2",
-        des: "Enter Project 2 details here",
-        img: "/p2.svg",
+        title: "LiveDocs",
+        des: "A collaborative Document Creation and management Web Application",
+        img: "/LD.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "Link for Project 2",
+        link: "https://github.com/Thami001/Collab-Docs-Web-App",
     },
     {
         id: 3,
-        title: "Project 3",
-        des: "Enter Project 3 details here",
-        img: "/p3.svg",
+        title: "AI NoteTaker",
+        des: "An AI-Powered Note Taking Web Application",
+        img: "/NT.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "",
+        link: "https://github.com/Thami001/Ai-Notebook-Web-App",
     },
     {
         id: 4,
-        title: "Project 4",
-        des: "Enter Project 4 details here",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "",
+        title: "Apop Schedule",
+        des: "An Appointment Scheduling and Appointment Management Web Application",
+        img: "AP2.png",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/st.svg"],
+        link: "https://github.com/Thami001/Appointment-Scheduling-Web-Application",
     },
 ];
 
@@ -182,13 +182,11 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        link: "https://github.com/Thami001?tab=repositories"
     },
     {
         id: 2,
-        img: "/twit.svg",
-    },
-    {
-        id: 3,
         img: "/link.svg",
+        link: "https://www.linkedin.com/in/tshegofatso-mdluli-985a332b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bin97bQ2jSf%2BkwFIAAsiXrg%3D%3D"
     },
 ];
